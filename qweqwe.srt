@@ -1,0 +1,525 @@
+
+1
+00:00:02,690 --> 00:00:07,898
+Now that we've seen a few datasets and 
+some of the summary statistics we can 
+
+2
+00:00:07,898 --> 00:00:13,22
+calculate and plots we can create in 
+order to get and understanding of our 
+
+3
+00:00:13,22 --> 00:00:17,800
+data, we'll now summarize some of the 
+features of data in general. 
+
+4
+00:00:17,800 --> 00:00:22,356
+An observational unit is the person or 
+thing on which measurements are taken for 
+
+5
+00:00:22,356 --> 00:00:25,408
+which a number of different terms are 
+commonly used. 
+
+6
+00:00:25,408 --> 00:00:30,100
+Examples of observational units that 
+we've encountered already include country 
+
+7
+00:00:30,100 --> 00:00:34,452
+or territory and our life expectancy 
+data, skeleton in our anthropological 
+
+8
+00:00:34,452 --> 00:00:38,951
+data, and soccer player in the data of 
+salaries of New York Red Bulls players. 
+
+9
+00:00:38,951 --> 00:00:44,297
+When we talk about a variable, we're 
+talking about a characteristic that we've 
+
+10
+00:00:44,297 --> 00:00:48,892
+measured on an observational unit. 
+In our life expectancy data, this 
+
+11
+00:00:48,892 --> 00:00:53,250
+includes, of course, life expectancy, as 
+well as region of the world. 
+
+12
+00:00:53,250 --> 00:00:58,290
+In our anthropological data, variables 
+include age at death, sex, BMI, the 
+
+13
+00:00:58,290 --> 00:01:03,570
+estimated age at death, the difference 
+between the actual and estimated age at 
+
+14
+00:01:03,570 --> 00:01:09,10
+death, which is an example of a variable 
+calculated from other variables, and the 
+
+15
+00:01:09,10 --> 00:01:13,789
+salary of our soccer players. 
+An observed value or observation is our 
+
+16
+00:01:13,789 --> 00:01:17,184
+data. 
+It is the actual value of a variable for 
+
+17
+00:01:17,184 --> 00:01:20,54
+one of the observational units in a 
+dataset. 
+
+18
+00:01:20,54 --> 00:01:26,258
+Data are arranged in rows and columns, 
+with one row for each observational unit 
+
+19
+00:01:26,258 --> 00:01:31,80
+and a column for each variable. 
+Many different file formats are possible 
+
+20
+00:01:31,80 --> 00:01:34,414
+for data, such as spreadsheets and comma 
+separated values. 
+
+21
+00:01:34,414 --> 00:01:38,494
+If you explore the data files used in 
+this course, you'll find that we're 
+
+22
+00:01:38,494 --> 00:01:42,778
+supplying the data in plain text files 
+with spaces separating the observed 
+
+23
+00:01:42,778 --> 00:01:47,96
+values of the variables. 
+Note, as here, that categorical variables 
+
+24
+00:01:47,96 --> 00:01:50,370
+can be coded multiple ways, including as 
+numbers. 
+
+25
+00:01:50,370 --> 00:01:53,830
+Here, a sex of 1 indicates a male and 2, 
+a female. 
+
+26
+00:01:53,830 --> 00:02:00,792
+It's not a quantitative variable however. 
+As we've already seen, variables can be 
+
+27
+00:02:00,792 --> 00:02:05,62
+of various types. 
+A variable is quantitative if it takes on 
+
+28
+00:02:05,62 --> 00:02:09,550
+numerical values for which arithmetic 
+operations make sense. 
+
+29
+00:02:09,550 --> 00:02:13,450
+For a quantitative variable, saying that 
+one observation is twice as large as 
+
+30
+00:02:13,450 --> 00:02:18,148
+another, has a practical meaning. 
+If one soccer player's salary, say, is 
+
+31
+00:02:18,148 --> 00:02:20,950
+twice that of another, that has a clear 
+meaning. 
+
+32
+00:02:20,950 --> 00:02:25,486
+Similarly, saying one soccer player's 
+salary is $10,000 more than another 
+
+33
+00:02:25,486 --> 00:02:30,94
+players has a clear mathematically 
+precise meaning, regardless of how much 
+
+34
+00:02:30,94 --> 00:02:33,525
+each soccer player earns. 
+This is characteristic of a quantitative 
+
+35
+00:02:33,525 --> 00:02:37,555
+variable. 
+Some examples of quantitative variables 
+
+36
+00:02:37,555 --> 00:02:42,329
+we've seen include life expectancy, the 
+actual age of a skeleton at time of 
+
+37
+00:02:42,329 --> 00:02:47,103
+death, the estimated age for that 
+skeleton, the difference between those 
+
+38
+00:02:47,103 --> 00:02:52,396
+two ages, the estimated and the actual 
+age, and salary of the soccer players. 
+
+39
+00:02:52,396 --> 00:02:57,20
+A categorical variable records into which 
+of several categories an observation 
+
+40
+00:02:57,20 --> 00:02:59,851
+falls. 
+As we saw in a previous video, we treat 
+
+41
+00:02:59,851 --> 00:03:04,921
+categorical variables with different 
+summary statistics, such as relative 
+
+42
+00:03:04,921 --> 00:03:08,920
+frequency. 
+Then, we use the quantitative variables. 
+
+43
+00:03:08,920 --> 00:03:13,198
+Some examples of categorical variables 
+we've seen includes sex, which is 
+
+44
+00:03:13,198 --> 00:03:16,881
+categories male or female. 
+BMI, when we consider it as the standard 
+
+45
+00:03:16,881 --> 00:03:21,140
+classifications of underweight, normal, 
+overweight and obese. 
+
+46
+00:03:21,140 --> 00:03:24,772
+And region of the world which had six 
+categories in our data. 
+
+47
+00:03:24,772 --> 00:03:31,40
+And finally, there are ordinal variables, 
+which have a natural order. 
+
+48
+00:03:31,40 --> 00:03:34,884
+Unlike quantitative variables, the 
+differences between two values of an 
+
+49
+00:03:34,884 --> 00:03:40,190
+ordinal variable may not be meaningful. 
+Sometimes, ordinal variables are treated 
+
+50
+00:03:40,190 --> 00:03:43,200
+as quantitative. 
+But when doing so, we need to be careful. 
+
+51
+00:03:43,200 --> 00:03:46,425
+If the quantity like, say, the mean truly 
+makes sense. 
+
+52
+00:03:46,425 --> 00:03:51,182
+However, if the median or middle value, 
+typically does make sense for an ordinal 
+
+53
+00:03:51,182 --> 00:03:56,190
+variable. 
+An example of ordinal variable we've seen 
+
+54
+00:03:56,190 --> 00:04:00,750
+is the BMI classifications. 
+Since underweight is less than normal, 
+
+55
+00:04:00,750 --> 00:04:04,680
+which is less than overweight, which is 
+less than obese. 
+
+56
+00:04:04,680 --> 00:04:09,20
+Another example of an ordinal variable is 
+the response to a Likert item on a 
+
+57
+00:04:09,20 --> 00:04:13,570
+questionnaire, where the respondent gets 
+to choose from strongly disagree, 
+
+58
+00:04:13,570 --> 00:04:17,530
+disagree, and so on, up to strongly 
+agree. 
+
+59
+00:04:17,530 --> 00:04:21,820
+In earlier videos, we talked about 
+outliers and their effect on calculations 
+
+60
+00:04:21,820 --> 00:04:25,173
+of summary statistics. 
+In the New York Red Bulls salary data, 
+
+61
+00:04:25,173 --> 00:04:28,953
+there were two players whose salaries 
+were much larger than every other 
+
+62
+00:04:28,953 --> 00:04:32,744
+player's salary on the team. 
+This happened as a result of the 
+
+63
+00:04:32,744 --> 00:04:36,118
+designated player rule. 
+This is the defining feature of an 
+
+64
+00:04:36,118 --> 00:04:39,646
+outlier, that it is separated from the 
+rest of the data. 
+
+65
+00:04:40,680 --> 00:04:44,770
+Outliers shouldn't be ignored or 
+routinely removed from the data. 
+
+66
+00:04:44,770 --> 00:04:47,760
+It can happen that an outlier is a 
+mistake. 
+
+67
+00:04:47,760 --> 00:04:53,493
+In a dataset of ages, say, an age of 555 
+is clearly impossible and was likely a 
+
+68
+00:04:53,493 --> 00:04:56,64
+typo. 
+Cleaning data by correcting errors like 
+
+69
+00:04:56,64 --> 00:05:00,610
+this is an important first step in 
+dealing with a new dataset. 
+
+70
+00:05:00,610 --> 00:05:05,70
+It's important to try to find out the 
+reason for unusual observations. 
+
+71
+00:05:05,70 --> 00:05:09,294
+When outliers are not mistakes, they 
+might be the most interesting feature, 
+
+72
+00:05:09,294 --> 00:05:12,808
+and removing them would remove an 
+important aspect of the data. 
+
+73
+00:05:12,808 --> 00:05:17,351
+But as we've seen in previous videos, 
+they can sometimes have an overly 
+
+74
+00:05:17,351 --> 00:05:22,356
+influential effect on summary statistics 
+that are not robust and they must be 
+
+75
+00:05:22,356 --> 00:05:27,630
+treated with care in the analysis. 
+It's not unusual to report findings both 
+
+76
+00:05:27,630 --> 00:05:35,760
+with and without outliers. 
+Sometimes, a dataset can include missing 
+
+77
+00:05:35,760 --> 00:05:38,679
+values. 
+Observed values can be missing for a 
+
+78
+00:05:38,679 --> 00:05:42,445
+number of reasons. 
+In the anthropology dataset of age 
+
+79
+00:05:42,445 --> 00:05:46,865
+estimates from skeletal remains, we've 
+been looking at estimates of age at death 
+
+80
+00:05:46,865 --> 00:05:49,326
+which were taken using the DeGangi 
+method. 
+
+81
+00:05:49,326 --> 00:05:53,882
+And the data we're using a random subset 
+of skeletons chosen from those for which 
+
+82
+00:05:53,882 --> 00:05:58,850
+the first rib, which we need for the 
+DeGangi estimate, was intact. 
+
+83
+00:05:58,850 --> 00:06:04,344
+It's possible for any skeleton, that the 
+first rib might be missing or damaged so 
+
+84
+00:06:04,344 --> 00:06:09,100
+that a DeGangi age estimate cannot be 
+made and the age estimate for the 
+
+85
+00:06:09,100 --> 00:06:13,62
+skeleton would be missing. 
+Sometimes, the fact that a data value was 
+
+86
+00:06:13,62 --> 00:06:16,935
+missing tells us something about what it 
+would have been, had it been observed. 
+
+87
+00:06:16,935 --> 00:06:23,143
+Imagine a scale for measuring a person's 
+weight that only goes up to, say, 100 
+
+88
+00:06:23,143 --> 00:06:26,615
+kilograms. 
+Any larger subjects who were part of the 
+
+89
+00:06:26,615 --> 00:06:31,150
+study using this scale would have had a 
+missing value for their weight. 
+
+90
+00:06:31,150 --> 00:06:35,298
+Not including them in the analyses would 
+bias the results by, for example, having 
+
+91
+00:06:35,298 --> 00:06:39,263
+a mean weight that was smaller than the 
+actual mean weight would have been, had 
+
+92
+00:06:39,263 --> 00:06:45,368
+the larger subjects been included. 
+Or imagine a study where some subjects 
+
+93
+00:06:45,368 --> 00:06:48,100
+dropped out, because they weren't doing 
+well. 
+
+94
+00:06:48,100 --> 00:06:52,688
+Carrying out analyses without these 
+subjects would make us think that the 
+
+95
+00:06:52,688 --> 00:06:56,100
+subjects as a group did better than they 
+actually did. 
+
+96
+00:06:56,100 --> 00:06:58,705
+These types of situations require a lot 
+of care. 
+
+97
+00:06:58,705 --> 00:07:04,639
+For our skeletal remains, we don't expect 
+that a missing first rib has any relation 
+
+98
+00:07:04,639 --> 00:07:09,799
+to the age of the skeleton at time of 
+death, or to any other features of the 
+
+99
+00:07:09,799 --> 00:07:14,730
+skeleton, such as sex, or BMI, or to the 
+estimate we would have got. 
+
+100
+00:07:14,730 --> 00:07:19,284
+It may be reasonable then to assume that 
+excluding skeletons for which we have a 
+
+101
+00:07:19,284 --> 00:07:23,493
+missing value for the DeGangi age 
+estimate doesn't have any effect on our 
+
+102
+00:07:23,493 --> 00:07:27,520
+analysis and we can continue to work with 
+the dataset without them. 
+
+103
+00:07:27,520 --> 00:07:32,339
+But any time we encounter a dataset with 
+missing values, we must consider 
+
+104
+00:07:32,339 --> 00:07:37,316
+carefully why they were missing, and 
+whether the fact that they're missing 
+
+105
+00:07:37,316 --> 00:07:39,730
+might bias the results of our work. 
+
